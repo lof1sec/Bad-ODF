@@ -17,7 +17,7 @@
 try:
 	from ezodf import newdoc
 except ImportError:
-	print ('ezodf appears to be missing - try: pip install ezodf')
+	print ('ezodf appears to be missing - try: pip install ezodf && pip install --upgrade lxml')
 	exit(1)
 
 import os
